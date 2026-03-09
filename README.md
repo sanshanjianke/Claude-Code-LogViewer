@@ -23,6 +23,7 @@ A modern web-based log viewer for Claude Code JSONL files. Features include file
 - **Sorting**: Toggle between newest-first (default) and oldest-first
 - **Syntax Highlighting**: JSON code blocks with highlight.js
 - **Theme Support**: Light and dark themes
+- **Bilingual Support**: English and Chinese (中文)
 - **Local Storage**: Data persisted in IndexedDB
 
 ### Tech Stack
@@ -32,6 +33,7 @@ A modern web-based log viewer for Claude Code JSONL files. Features include file
 - Element Plus (UI Components)
 - Dexie.js (IndexedDB)
 - highlight.js (Syntax Highlighting)
+- vue-i18n (Internationalization)
 - Vite (Build Tool)
 
 ### Browser Support
@@ -46,6 +48,12 @@ Firefox and Safari are not currently supported for directory monitoring features
 ### Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/sanshanjianke/Claude-Code-LogViewer.git
+
+# Enter the project directory
+cd Claude-Code-LogViewer
+
 # Install dependencies
 npm install
 
@@ -64,7 +72,7 @@ MIT
 
 ## 中文
 
-一个现代化的 Claude Code JSONL 日志查看器。支持文件上传、工作目录实时监控（可自定义刷新间隔）、多维度筛选（时间/类型/工具/关键词）、排序切换、语法高亮和暗色主题。
+一个现代化的 Claude Code JSONL 日志查看器。支持文件上传、工作目录实时监控（可自定义刷新间隔）、多维度筛选（时间/类型/工具/关键词）、排序切换、语法高亮、中英文双语界面和暗色主题。
 
 ### 功能特性
 
@@ -81,6 +89,7 @@ MIT
 - **排序功能**: 支持最新在前（默认）和最早在前切换
 - **语法高亮**: JSON 代码块高亮显示
 - **主题支持**: 支持亮色和暗色主题
+- **双语支持**: 支持中英文切换
 - **本地存储**: 数据持久化存储在 IndexedDB
 
 ### 技术栈
@@ -90,6 +99,7 @@ MIT
 - Element Plus（UI 组件库）
 - Dexie.js（IndexedDB 封装）
 - highlight.js（语法高亮）
+- vue-i18n（国际化）
 - Vite（构建工具）
 
 ### 浏览器支持
@@ -104,6 +114,12 @@ Firefox 和 Safari 目前不支持目录监控功能。
 ### 快速开始
 
 ```bash
+# 克隆仓库
+git clone https://github.com/sanshanjianke/Claude-Code-LogViewer.git
+
+# 进入项目目录
+cd Claude-Code-LogViewer
+
 # 安装依赖
 npm install
 
